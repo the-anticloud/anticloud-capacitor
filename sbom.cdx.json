@@ -1,0 +1,383 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:d6d97445-f222-5b6b-a60e-fdd5a8ff4302",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T06:07:33Z",
+  "component": {
+   "type": "application",
+   "name": "CAPACITOR",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CAPACITOR@83b357604d34",
+   "purl": "pkg:generic/anticloud/CAPACITOR@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@ionic/eslint-config",
+   "version": "^0.4.0",
+   "purl": "pkg:npm/@ionic/eslint-config@^0.4.0",
+   "bom-ref": "npm/@ionic/eslint-config@^0.4.0"
+  },
+  {
+   "type": "library",
+   "name": "@ionic/prettier-config",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/@ionic/prettier-config@^4.0.0",
+   "bom-ref": "npm/@ionic/prettier-config@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@ionic/swiftlint-config",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/@ionic/swiftlint-config@^2.0.0",
+   "bom-ref": "npm/@ionic/swiftlint-config@^2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "18.18.6",
+   "purl": "pkg:npm/@types/node@18.18.6",
+   "bom-ref": "npm/@types/node@18.18.6"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^8.57.0",
+   "purl": "pkg:npm/eslint@^8.57.0",
+   "bom-ref": "npm/eslint@^8.57.0"
+  },
+  {
+   "type": "library",
+   "name": "lerna",
+   "version": "^7.1.3",
+   "purl": "pkg:npm/lerna@^7.1.3",
+   "bom-ref": "npm/lerna@^7.1.3"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "^3.3.0",
+   "purl": "pkg:npm/prettier@^3.3.0",
+   "bom-ref": "npm/prettier@^3.3.0"
+  },
+  {
+   "type": "library",
+   "name": "prettier-plugin-java",
+   "version": "^2.6.4",
+   "purl": "pkg:npm/prettier-plugin-java@^2.6.4",
+   "bom-ref": "npm/prettier-plugin-java@^2.6.4"
+  },
+  {
+   "type": "library",
+   "name": "rimraf",
+   "version": "^4.4.1",
+   "purl": "pkg:npm/rimraf@^4.4.1",
+   "bom-ref": "npm/rimraf@^4.4.1"
+  },
+  {
+   "type": "library",
+   "name": "semver",
+   "version": "^7.3.7",
+   "purl": "pkg:npm/semver@^7.3.7",
+   "bom-ref": "npm/semver@^7.3.7"
+  },
+  {
+   "type": "library",
+   "name": "swiftlint",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/swiftlint@^2.0.0",
+   "bom-ref": "npm/swiftlint@^2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "tar",
+   "version": "^7.5.3",
+   "purl": "pkg:npm/tar@^7.5.3",
+   "bom-ref": "npm/tar@^7.5.3"
+  },
+  {
+   "type": "library",
+   "name": "@capacitor/core",
+   "version": "^8.5.0",
+   "purl": "pkg:npm/@capacitor/core@^8.5.0",
+   "bom-ref": "npm/@capacitor/core@^8.5.0"
+  },
+  {
+   "type": "library",
+   "name": "tslib",
+   "version": "^2.1.0",
+   "purl": "pkg:npm/tslib@^2.1.0",
+   "bom-ref": "npm/tslib@^2.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@capacitor/docgen",
+   "version": "^0.2.2",
+   "purl": "pkg:npm/@capacitor/docgen@^0.2.2",
+   "bom-ref": "npm/@capacitor/docgen@^0.2.2"
+  },
+  {
+   "type": "library",
+   "name": "@rollup/plugin-node-resolve",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/@rollup/plugin-node-resolve@^10.0.0",
+   "bom-ref": "npm/@rollup/plugin-node-resolve@^10.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@rollup/plugin-replace",
+   "version": "^2.4.2",
+   "purl": "pkg:npm/@rollup/plugin-replace@^2.4.2",
+   "bom-ref": "npm/@rollup/plugin-replace@^2.4.2"
+  },
+  {
+   "type": "library",
+   "name": "@types/jest",
+   "version": "^29.5.0",
+   "purl": "pkg:npm/@types/jest@^29.5.0",
+   "bom-ref": "npm/@types/jest@^29.5.0"
+  },
+  {
+   "type": "library",
+   "name": "jest",
+   "version": "^29.5.0",
+   "purl": "pkg:npm/jest@^29.5.0",
+   "bom-ref": "npm/jest@^29.5.0"
+  },
+  {
+   "type": "library",
+   "name": "jest-environment-jsdom",
+   "version": "^29.5.0",
+   "purl": "pkg:npm/jest-environment-jsdom@^29.5.0",
+   "bom-ref": "npm/jest-environment-jsdom@^29.5.0"
+  },
+  {
+   "type": "library",
+   "name": "jest-jasmine2",
+   "version": "^29.5.0",
+   "purl": "pkg:npm/jest-jasmine2@^29.5.0",
+   "bom-ref": "npm/jest-jasmine2@^29.5.0"
+  },
+  {
+   "type": "library",
+   "name": "rollup",
+   "version": "^2.21.0",
+   "purl": "pkg:npm/rollup@^2.21.0",
+   "bom-ref": "npm/rollup@^2.21.0"
+  },
+  {
+   "type": "library",
+   "name": "rollup-plugin-terser",
+   "version": "^7.0.2",
+   "purl": "pkg:npm/rollup-plugin-terser@^7.0.2",
+   "bom-ref": "npm/rollup-plugin-terser@^7.0.2"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "~5.0.2",
+   "purl": "pkg:npm/typescript@~5.0.2",
+   "bom-ref": "npm/typescript@~5.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@ionic/cli-framework-output",
+   "version": "^2.2.8",
+   "purl": "pkg:npm/@ionic/cli-framework-output@^2.2.8",
+   "bom-ref": "npm/@ionic/cli-framework-output@^2.2.8"
+  },
+  {
+   "type": "library",
+   "name": "@ionic/utils-subprocess",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/@ionic/utils-subprocess@^3.0.1",
+   "bom-ref": "npm/@ionic/utils-subprocess@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@ionic/utils-terminal",
+   "version": "^2.3.5",
+   "purl": "pkg:npm/@ionic/utils-terminal@^2.3.5",
+   "bom-ref": "npm/@ionic/utils-terminal@^2.3.5"
+  },
+  {
+   "type": "library",
+   "name": "commander",
+   "version": "^12.1.0",
+   "purl": "pkg:npm/commander@^12.1.0",
+   "bom-ref": "npm/commander@^12.1.0"
+  },
+  {
+   "type": "library",
+   "name": "debug",
+   "version": "^4.4.0",
+   "purl": "pkg:npm/debug@^4.4.0",
+   "bom-ref": "npm/debug@^4.4.0"
+  },
+  {
+   "type": "library",
+   "name": "env-paths",
+   "version": "^2.2.0",
+   "purl": "pkg:npm/env-paths@^2.2.0",
+   "bom-ref": "npm/env-paths@^2.2.0"
+  },
+  {
+   "type": "library",
+   "name": "fs-extra",
+   "version": "^11.2.0",
+   "purl": "pkg:npm/fs-extra@^11.2.0",
+   "bom-ref": "npm/fs-extra@^11.2.0"
+  },
+  {
+   "type": "library",
+   "name": "kleur",
+   "version": "^4.1.5",
+   "purl": "pkg:npm/kleur@^4.1.5",
+   "bom-ref": "npm/kleur@^4.1.5"
+  },
+  {
+   "type": "library",
+   "name": "native-run",
+   "version": "^2.0.3",
+   "purl": "pkg:npm/native-run@^2.0.3",
+   "bom-ref": "npm/native-run@^2.0.3"
+  },
+  {
+   "type": "library",
+   "name": "open",
+   "version": "^8.4.0",
+   "purl": "pkg:npm/open@^8.4.0",
+   "bom-ref": "npm/open@^8.4.0"
+  },
+  {
+   "type": "library",
+   "name": "plist",
+   "version": "^3.1.0",
+   "purl": "pkg:npm/plist@^3.1.0",
+   "bom-ref": "npm/plist@^3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "prompts",
+   "version": "^2.4.2",
+   "purl": "pkg:npm/prompts@^2.4.2",
+   "bom-ref": "npm/prompts@^2.4.2"
+  },
+  {
+   "type": "library",
+   "name": "xcode",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/xcode@^3.0.1",
+   "bom-ref": "npm/xcode@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "xml2js",
+   "version": "^0.6.2",
+   "purl": "pkg:npm/xml2js@^0.6.2",
+   "bom-ref": "npm/xml2js@^0.6.2"
+  },
+  {
+   "type": "library",
+   "name": "@types/debug",
+   "version": "^4.1.12",
+   "purl": "pkg:npm/@types/debug@^4.1.12",
+   "bom-ref": "npm/@types/debug@^4.1.12"
+  },
+  {
+   "type": "library",
+   "name": "@types/fs-extra",
+   "version": "^11.0.4",
+   "purl": "pkg:npm/@types/fs-extra@^11.0.4",
+   "bom-ref": "npm/@types/fs-extra@^11.0.4"
+  },
+  {
+   "type": "library",
+   "name": "@types/plist",
+   "version": "^3.0.5",
+   "purl": "pkg:npm/@types/plist@^3.0.5",
+   "bom-ref": "npm/@types/plist@^3.0.5"
+  },
+  {
+   "type": "library",
+   "name": "@types/prompts",
+   "version": "^2.4.9",
+   "purl": "pkg:npm/@types/prompts@^2.4.9",
+   "bom-ref": "npm/@types/prompts@^2.4.9"
+  },
+  {
+   "type": "library",
+   "name": "@types/semver",
+   "version": "^7.5.8",
+   "purl": "pkg:npm/@types/semver@^7.5.8",
+   "bom-ref": "npm/@types/semver@^7.5.8"
+  },
+  {
+   "type": "library",
+   "name": "@types/tmp",
+   "version": "^0.2.6",
+   "purl": "pkg:npm/@types/tmp@^0.2.6",
+   "bom-ref": "npm/@types/tmp@^0.2.6"
+  },
+  {
+   "type": "library",
+   "name": "@types/xcode",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/@types/xcode@^3.0.0",
+   "bom-ref": "npm/@types/xcode@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/xml2js",
+   "version": "0.4.5",
+   "purl": "pkg:npm/@types/xml2js@0.4.5",
+   "bom-ref": "npm/@types/xml2js@0.4.5"
+  },
+  {
+   "type": "library",
+   "name": "tmp",
+   "version": "^0.2.3",
+   "purl": "pkg:npm/tmp@^0.2.3",
+   "bom-ref": "npm/tmp@^0.2.3"
+  },
+  {
+   "type": "library",
+   "name": "ts-jest",
+   "version": "^29.0.5",
+   "purl": "pkg:npm/ts-jest@^29.0.5",
+   "bom-ref": "npm/ts-jest@^29.0.5"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
